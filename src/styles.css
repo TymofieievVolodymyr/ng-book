@@ -1,49 +1,43 @@
-@import './app/vendor/semantic.min.css';
+.ui.menu .header.item > img.logo {
+  margin-right: 12px; }
 
-.ui.menu .item img.logo {
-    margin-right: 1.5em;
-}
+.intro {
+  margin-top: 10em;
+  font-size: 1.2em;
+  line-height: 1.5; }
 
-form.ui.segment.form {
-  background-color: #F1F9FF;
-  margin-top: 2em;
-}
+.bordered {
+  border: 1px dashed black;
+  background-color: #eee; }
 
-form.form:after {
-  content: '';
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
+.selectors {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 10px; }
 
-.votes {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #E6E6E6;
-  padding: 1em 0;
-  border-radius: 5px;
-}
+.base {
+  padding: 10px;
+  border: 1px solid #ccc; }
 
-.ui.grid.posts {
-  margin-top: 2em;
-}
+.blue {
+  color: white;
+  background-color: blue; }
 
-.meta {
-  color: #9A9A9A
-}
+.round {
+  border-radius: 20px; }
 
-.ui.grid>.row>.column.votes {
-  display: flex;
-}
+.ngClassDemo div {
+  padding: 3px;
+  margin: 2px; }
 
-ul.ui.list li:before {
-  content: '';
-}
+.ngClassDemo button {
+  margin-bottom: 20px; }
 
-.voters {
-  clear: both;
-  width: 100%;
-}
+.ngNonBindableDemo .bordered {
+  border: 1px dashed black;
+  background-color: #eee;
+  padding: 10px; }
 
+.ngNonBindableDemo .pre {
+  font-family: monospace; }
