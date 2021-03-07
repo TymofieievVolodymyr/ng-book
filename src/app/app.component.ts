@@ -3,7 +3,7 @@ import {
   EventEmitter
 } from '@angular/core';
 
-import { Product } from './product.model';
+import {Product} from './product.model';
 
 /**
  * @InventoryApp: the top-level component for our application
@@ -35,7 +35,7 @@ export class AppComponent {
         '/assets/images/products/black-hat.jpg',
         ['Men', 'Accessories', 'Hats'],
         29.99)
-      ];
+    ];
   }
 
   productWasSelected(product: Product): void {
